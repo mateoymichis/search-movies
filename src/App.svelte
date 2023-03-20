@@ -5,10 +5,23 @@
 	const commonProps = {maxCounter: 15}
 </script>
 
+<style>
+	h1 {
+		font-size: 32px;
+	}
+
+	section {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+</style>
 <!--
 <Counter initialCounter={2} {... commonProps}/>
 <Counter initialCounter={10} {... commonProps}/>
 <Counter {... commonProps}/>
  -->
-
- <Input />
+<section>
+	<h1>Search Movies 🍿</h1>
+	<Input />
+</section>
